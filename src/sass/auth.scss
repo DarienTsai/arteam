@@ -1,0 +1,27 @@
+#auth-parent{
+  margin: auto;
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#auth-logo{
+  display: block;
+  margin: 0 auto;
+  padding: 5%;
+  width: 50vw;
+}
+
+#login-parent, #signup-parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  padding: 10% 0;
+}
+
+.auth-field{
+  padding: 1em 0;
+}

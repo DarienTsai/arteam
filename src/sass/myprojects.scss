@@ -1,0 +1,17 @@
+#add-project{
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(202, 202, 202);
+  position: absolute;
+  bottom: 10vh;
+  right: 2vh;
+  z-index: 5;
+}
+
+#my-list{
+  position: absolute;
+  left: 0;
+  top: 8vh;
+  height: 84vh;
+  width: 100vw;
+  overflow-y: auto;
+}

@@ -7,7 +7,6 @@ Inspo is a place to get feedback/collaboration.
 - React
 - Material-UI
 - Sass
-- 
 
 # For Developers:
 

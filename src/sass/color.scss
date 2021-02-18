@@ -1,0 +1,32 @@
+:root{
+  --primary: rgb(20, 20, 20);
+  --secondary: rgb(78, 78, 78);
+  --light: rgb(202, 202, 202);
+
+  --primary-text: black;
+  --secondary-text: rgb(54, 54, 54);
+}
+
+#root header.top-bar{
+  background: var(--primary);
+}
+
+header.MuiAppBar-colorPrimary{
+  background-color: var(--primary);
+}
+
+.show-card .tag{
+  background: var(--secondary);
+}
+
+span.PrivateTabIndicator-colorSecondary-5{
+  background-color: var(--primary);
+}
+
+svg.MuiSvgIcon-fontSizeLarge{
+  color: var(--primary-text);
+}
+
+#add-project{
+  border: 2px solid var(--light);
+}
