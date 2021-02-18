@@ -32,8 +32,6 @@ export default class Show extends React.Component{
             <Chip label="Tag" color="primary" className="tag"/>
             <Chip label="Tag" color="primary" className="tag"/>
             <Chip label="Tag" color="primary" className="tag"/>
-            <Chip label="Tag" color="primary" className="tag"/>
-            <Chip label="Tag" color="primary" className="tag"/>
           </div>
         </div>
 

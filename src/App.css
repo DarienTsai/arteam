@@ -48,7 +48,6 @@ div.search-parent {
 
 #root header.top-bar,
 header.MuiAppBar-colorPrimary,
-span.PrivateTabIndicator-colorSecondary-3,
 button.MuiButton-containedPrimary {
   background: var(--primary);
 }
@@ -69,7 +68,8 @@ svg.MuiSvgIcon-fontSizeLarge {
   background-color: white;
 }
 
-.App {
+.App,
+span.PrivateTabIndicator-colorSecondary-3 {
   background-color: var(--light);
 }
 
