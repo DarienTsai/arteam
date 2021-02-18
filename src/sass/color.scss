@@ -1,26 +1,21 @@
 :root{
   --primary: rgb(20, 20, 20);
   --secondary: rgb(78, 78, 78);
-  --light: rgb(202, 202, 202);
+  --light: rgb(243, 243, 243);
 
   --primary-text: black;
   --secondary-text: rgb(54, 54, 54);
 }
 
-#root header.top-bar{
+#root header.top-bar,
+header.MuiAppBar-colorPrimary,
+span.PrivateTabIndicator-colorSecondary-3,
+button.MuiButton-containedPrimary{
   background: var(--primary);
-}
-
-header.MuiAppBar-colorPrimary{
-  background-color: var(--primary);
 }
 
 .show-card .tag{
   background: var(--secondary);
-}
-
-span.PrivateTabIndicator-colorSecondary-5{
-  background-color: var(--primary);
 }
 
 svg.MuiSvgIcon-fontSizeLarge{
@@ -29,4 +24,12 @@ svg.MuiSvgIcon-fontSizeLarge{
 
 #add-project{
   border: 2px solid var(--light);
+}
+
+#nav-tabpanel-0, #nav-tabpanel-1{
+  background-color: white;
+}
+
+.App{
+  background-color: var(--light);
 }

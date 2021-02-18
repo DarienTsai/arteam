@@ -17,11 +17,12 @@
 #login-parent, #signup-parent{
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-around;
-  height: 30vh;
+  height: 35vh;
   padding: 10% 0;
 }
 
 .auth-field{
-  padding: 1em 0;
+  margin: 1.5em 0;
 }

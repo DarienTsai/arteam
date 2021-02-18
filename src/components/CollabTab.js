@@ -3,6 +3,10 @@ import Searchbar from './Searchbar';
 
 import Show from './Show';
 
+var data = {
+  test: 'test'
+};
+
 export default class CollabTab extends React.Component{
 
   constructor(){
