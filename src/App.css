@@ -69,7 +69,7 @@ svg.MuiSvgIcon-fontSizeLarge {
 }
 
 .App,
-span.PrivateTabIndicator-colorSecondary-3 {
+span.PrivateTabIndicator-colorSecondary-3, span.MuiTabs-indicator {
   background-color: var(--light);
 }
 
