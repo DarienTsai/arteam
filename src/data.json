@@ -1,0 +1,19 @@
+{
+	profile: {
+		id: 0,
+		name: “name”,
+		tags: [‘tag1’, ‘tag2’],
+		description: “”,
+  },
+  myProjects: {
+    name: “name”,
+    about: “hi”,
+    lookingFor: “I want friends”
+    tags: [‘tag1’, ‘tag2’],
+    size: 4,
+    image: “url string”,
+    people interested: [
+	    [id, “intro message”]
+members: [“owner”]
+},
+
