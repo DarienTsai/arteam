@@ -2,7 +2,7 @@
 	"profile": {
 		"id": 0,
 		"name": "Andy127",
-		"tags": ["graphic design", "illustration", "sketch", "painting", "hobby"],
+		"tags": ["Graphic Design", "Illustration", "Sketch", "Painting", "Hobby"],
 		"description": "Hi, my name is Andy and I am fascinated by visual arts since childhood. I hope that I will have the opportunity to work with other artists and create amazing art projects here."
   	},
   	"myProjects": [
@@ -10,34 +10,37 @@
   			"name": "Symbolism Short Film",
     		"about": "This is an experimental film on symbolism, which explores the abstract.",
     		"lookingFor": "Looking for an editor, a vfx person, and a writer",
-    		"tags": ["film", "abstract", "digital", "hobby"],
+    		"tags": ["Film", "Abstract", "Digital", "Hobby"],
     		"size": 4,
     		"image": "lorempixel.city.1.jpeg",
     		"people interested": [[1, "Hello, I am really interested!"], [3, ""], [9, "Your project looks cool! I would like to work with you!"]],
     		"creator": 0,
-    		"members": [1, 3, 9]
+    		"members": [1, 3, 9],
+    		"date": "1/15/2021"
 		},
 		{
 			"name": "Typography Poster",
     		"about": "This is a typography poster that plays around with types and compositions.",
     		"lookingFor": "Looking for someone who is also interested in exploring types and how to use types to convey meanings",
-    		"tags": ["graphic design", "typography", "digital", "learning"],
+    		"tags": ["Graphic Design", "Typography", "Digital", "Learning"],
     		"size": 2,
     		"image": "lorempixel.city.2.jpeg",
     		"people interested": [[8, "I also like experiment with typography! Looking foward to collaborate with you. Please take a look at my profile if your are interested!"]],
     		"creator": 0,
-			"members": [8]
+			"members": [8],
+			"date": "1/8/2021"
 		},
 		{
 			"name": "The river from Hometown",
     		"about": "This is an ink illustration of a river near my house from Beijing.",
     		"lookingFor": "Looking for someone who is also interested in landscape in Beijing to do some coloring.",
-    		"tags": ["illustration", "landscape", "hobby", "physical"],
+    		"tags": ["Illustration", "Landscape", "Hobby", "Physical"],
     		"size": 2,
     		"image": "lorempixel.city.3.jpeg",
     		"people interested": [[3, "Native from Beijing here. Very interested in this project."], [6, "I am not from Beijing but I am very experienced in landscape illustration. Would be very excited to get a glimpse of landscape in Beijing!"], [7, ""]],
     		"creator": 0,
-    		"members": [3, 6, 7]
+    		"members": [3, 6, 7],
+    		"date": "12/30/2020"
 		}
 	],
 	"collabs": [
@@ -45,87 +48,92 @@
   			"name": "Portrait of Ruby Moon",
     		"about": "A portrait of Ruby Moon in realistic style; oil painting",
     		"lookingFor": "Another person who is advanced in oil painting and is experienced in painting portraits.",
-    		"tags": ["painting", "portraits", "physical", "commission"],
+    		"tags": ["Painting", "Portraits", "Physical", "Commission"],
     		"size": 2,
     		"image": "lorempixel.people.2.jpeg",
     		"people interested": [[2, "I am experienced in oil painting. Is also working on portrait painting. Please check out my profile if interested!"]],
     		"creator": 1,
-    		"members": [2]
+    		"members": [2],
+    		"date": "1/12/2021"
 		},
 		{
 			"name": "Kingdom of Stickfigures",
     		"about": "This is a short animation that aims to experiment basic animation techniques.",
     		"lookingFor": "Looking for 1 person with intermediate to advanced illustration skills and 1 writer who is interested in developing the plot.",
-    		"tags": ["animation", "figures", "hobby", "digital"],
+    		"tags": ["Animation", "Figures", "Hobby", "Digital"],
     		"size": 3,
     		"image": "lorempixel.people.1.jpeg",
     		"people interested": [[3, "I am very interested in collaborating with you for this project! I am very experienced in illustration."], [6, "Hey! I've been working in the literature department in education institution and I am looking forward to working on writing the plot!"]],
     		"creator": 2,
-    		"members": [3, 6]
+    		"members": [3, 6],
+    		"date": "1/10/2021"
 		},
 		{
 			"name": "The Dream of Thousand Paper Crane",
     		"about": "This is a fundarising event aiming to help support elementary school children in the countryside of Shanghai.",
     		"lookingFor": "Looking for 2 people who are willing to dedicate time to fold paper crane, and 1 organizer to help with fundarising.",
-    		"tags": ["handcraft", "physical"],
+    		"tags": ["Handcraft", "Physical"],
     		"size": 4,
     		"image": "lorempixel.city.4.jpeg",
     		"people interested": [[2, "I would really like to participate in this fundarising!"], [9, "Have been doing origami for more than 10 years. Very interested in doing paper crane and helping the fundarising."], [7, "I am also very interested in joining the fundarising team! I am from a marketing background and have organization experience in small companies."]],
     		"creator": 5,
-    		"members": [2, 9, 7]
+    		"members": [2, 9, 7],
+    		"date": "1/9/2021"
 		},
 		{
 			"name": "Lunar New Year Memories",
     		"about": "This is a photography series that aims record the happiness of celebrating Chinese lunar new year.",
     		"lookingFor": "Looking for 2 other photographers who are willing to participate",
-    		"tags": ["photography", "events", "digital", "professional"],
+    		"tags": ["Photography", "Events", "Digital", "Professional"],
     		"size": 3,
     		"image": "lorempixel.city.5.jpeg",
     		"people interested": [[1, "Professonal photographer here gears towards model photography, but would like to try out other styles too. Let me know if you are interested!"], [9, "Hello! I am an experienced landscape photographer, and also very interested in the Chinese culture. I am very interested in your project!"]],
     		"creator": 3,
-    		"members": [1, 9]
+    		"members": [1, 9],
+    		"date": "1/7/2021"
 		},
 		{
 			"name": "I Miss You",
     		"about": "This is a an expeirmental 3D design project.",
     		"lookingFor": "Looking for 1 person who is familiar with Maya and 1 writer.",
-    		"tags": ["3D design", "experimental", "figures", "abstract", "record", "digital", "hobby"],
+    		"tags": ["3D Design", "Experimental", "Figures", "Abstract", "Record", "Digital", "Hobby"],
     		"size": 3,
     		"image": "lorempixel.people.3.jpeg",
     		"people interested": [[6, "Hi! I am also playing around with 3D designs! Maybe we can learn together!"], [8, "Hello! I have some experience in 3D design and I am also down to do some creative writing!"]],
     		"creator": 9,
-    		"members": [6, 8]
+    		"members": [6, 8],
+    		"date": "1/5/2021"
 		}],
 	"users": [
 		{
 			"id": 1,
 			"name": "Jstar",
-			"tags": ["hobby", "graphic design", "illustration", "painting", "sketch", "handcraft",
-						"portraits", "still-life", "logo", "typography"],
+			"tags": ["Hobby", "Graphic Design", "Illustration", "Painting", "Sketch", "Handcraft",
+						"Portraits", "Still Life", "Logo", "Typography"],
 			"description": "A person who is interested in visual arts."
 		},
 		{
 			"id": 2,
 			"name": "QwQ1125",
-			"tags": ["learning", "animation", "illustration"],
+			"tags": ["Learning", "Animation", "Illustration"],
 			"description": "Hello! I am a college student who likes to watch a lot of animes, and that was what motivated me to create my own animation! If you are also interested in creating your own story, please feel free to connect with me! Can't wait to work with you all!"
 		},
 		{
 			"id": 3,
 			"name": "Minimini",
-			"tags": ["hobby", "painting", "sketch", "portraits", "landscape", "still-life"],
+			"tags": ["Hobby", "Painting", "Sketch", "Portraits", "Landscape", "Still Life"],
 			"description": "Hi there. My name is Minimini, you can just call me Mini! I am hanging around to see if I can meet other brilliant minds that will inspire me."
 		},
 		{
 			"id": 5,
 			"name": "LilyWhite",
-			"tags": ["professional", "graphic design", "illustration", "3D design", "sketch", "typography"],
+			"tags": ["Professional", "Graphic Design", "Illustration", "3D Design", "Sketch", "Typography"],
 			"description": "Hello, I am LilyWhite, and I am a professional designer who is specificially interested in graphic design, illustration and 3D design."
 		},
 		{
 			"id": 9,
 			"name": "Cam",
-			"tags": ["learning", "photography", "film"],
+			"tags": ["Learning", "Photography", "Film"],
 			"description": "Hello world!"
 		}]
 	
