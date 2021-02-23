@@ -7,15 +7,15 @@
   	},
   	"myProjects": [
   		{
-    		"name": "Symbolism Short Film",
+  			"name": "Symbolism Short Film",
     		"about": "This is an experimental film on symbolism, which explores the abstract.",
     		"lookingFor": "Looking for an editor, a vfx person, and a writer",
     		"tags": ["film", "abstract", "digital", "hobby"],
     		"size": 4,
-    		"image": "url string",
-    		"people interested": [[1, "intro message"], [3, "intro message"], [9, "intro message"]],
-    		"creator": "owner",
-			"members": [1, 3, 9]
+    		"image": "lorempixel.city.1.jpeg",
+    		"people interested": [[1, "Hello, I am really interested!"], [3, ""], [9, "Your project looks cool! I would like to work with you!"]],
+    		"creator": 0,
+    		"members": [1, 3, 9]
 		},
 		{
 			"name": "Typography Poster",
@@ -23,10 +23,10 @@
     		"lookingFor": "Looking for someone who is also interested in exploring types and how to use types to convey meanings",
     		"tags": ["graphic design", "typography", "digital", "learning"],
     		"size": 2,
-    		"image": "url string",
-    		"people interested": [[2, "intro message"], [5, "intro message"], [8, "intro message"]],
-    		"creator": "owner",
-			"members": [2, 5, 8]
+    		"image": "lorempixel.city.2.jpeg",
+    		"people interested": [[8, "I also like experiment with typography! Looking foward to collaborate with you. Please take a look at my profile if your are interested!"]],
+    		"creator": 0,
+			"members": [8]
 		},
 		{
 			"name": "The river from Hometown",
@@ -34,23 +34,23 @@
     		"lookingFor": "Looking for someone who is also interested in landscape in Beijing to do some coloring.",
     		"tags": ["illustration", "landscape", "hobby", "physical"],
     		"size": 2,
-    		"image": "url string",
-    		"people interested": [[3, "intro message"], [6, "intro message"], [7, "intro message"]],
-    		"creator": "owner",
-			"members": [3, 6, 7]
+    		"image": "lorempixel.city.3.jpeg",
+    		"people interested": [[3, "Native from Beijing here. Very interested in this project."], [6, "I am not from Beijing but I am very experienced in landscape illustration. Would be very excited to get a glimpse of landscape in Beijing!"], [7, ""]],
+    		"creator": 0,
+    		"members": [3, 6, 7]
 		}
-	]},
+	],
 	"collabs": [
   		{
-    		"name": "Portrait of Ruby Moon",
+  			"name": "Portrait of Ruby Moon",
     		"about": "A portrait of Ruby Moon in realistic style; oil painting",
     		"lookingFor": "Another person who is advanced in oil painting and is experienced in painting portraits.",
     		"tags": ["painting", "portraits", "physical", "commission"],
     		"size": 2,
-    		"image": "url string",
-    		"people interested": [[2, "intro message"], [5, "intro message"], [6, "intro message"]],
-    		"creator": "owner",
-			"members": [3, 6, 7]
+    		"image": "lorempixel.people.2.jpeg",
+    		"people interested": [[2, "I am experienced in oil painting. Is also working on portrait painting. Please check out my profile if interested!"]],
+    		"creator": 1,
+    		"members": [2]
 		},
 		{
 			"name": "Kingdom of Stickfigures",
@@ -58,21 +58,21 @@
     		"lookingFor": "Looking for 1 person with intermediate to advanced illustration skills and 1 writer who is interested in developing the plot.",
     		"tags": ["animation", "figures", "hobby", "digital"],
     		"size": 3,
-    		"image": "url string",
-    		"people interested": [[3, "intro message"], [6, "intro message"], [7, "intro message"]],
-    		"creator": "owner",
-			"members": [3, 6, 7]
+    		"image": "lorempixel.people.1.jpeg",
+    		"people interested": [[3, "I am very interested in collaborating with you for this project! I am very experienced in illustration."], [6, "Hey! I've been working in the literature department in education institution and I am looking forward to working on writing the plot!"]],
+    		"creator": 2,
+    		"members": [3, 6]
 		},
 		{
 			"name": "The Dream of Thousand Paper Crane",
-    		"about": "This is a fundarising event aiming to help support elementary school children in the countryside of Shanghai. ",
+    		"about": "This is a fundarising event aiming to help support elementary school children in the countryside of Shanghai.",
     		"lookingFor": "Looking for 2 people who are willing to dedicate time to fold paper crane, and 1 organizer to help with fundarising.",
     		"tags": ["handcraft", "physical"],
     		"size": 4,
-    		"image": "url string",
-    		"people interested": [[3, "intro message"], [6, "intro message"], [7, "intro message"]],
-    		"creator": "owner",
-			"members": [3, 6, 7]
+    		"image": "lorempixel.city.4.jpeg",
+    		"people interested": [[2, "I would really like to participate in this fundarising!"], [9, "Have been doing origami for more than 10 years. Very interested in doing paper crane and helping the fundarising."], [7, "I am also very interested in joining the fundarising team! I am from a marketing background and have organization experience in small companies."]],
+    		"creator": 5,
+    		"members": [2, 9, 7]
 		},
 		{
 			"name": "Lunar New Year Memories",
@@ -80,10 +80,10 @@
     		"lookingFor": "Looking for 2 other photographers who are willing to participate",
     		"tags": ["photography", "events", "digital", "professional"],
     		"size": 3,
-    		"image": "url string",
-    		"people interested": [[1, "intro message"], [2, "intro message"], [9, "intro message"]],
-    		"creator": "owner",
-			"members": [3, 6, 7]
+    		"image": "lorempixel.city.5.jpeg",
+    		"people interested": [[1, "Professonal photographer here gears towards model photography, but would like to try out other styles too. Let me know if you are interested!"], [9, "Hello! I am an experienced landscape photographer, and also very interested in the Chinese culture. I am very interested in your project!"]],
+    		"creator": 3,
+    		"members": [1, 9]
 		},
 		{
 			"name": "I Miss You",
@@ -91,10 +91,10 @@
     		"lookingFor": "Looking for 1 person who is familiar with Maya and 1 writer.",
     		"tags": ["3D design", "experimental", "figures", "abstract", "record", "digital", "hobby"],
     		"size": 3,
-    		"image": "url string",
-    		"people interested": [[3, "intro message"], [6, "intro message"], [7, "intro message"]],
-    		"creator": "owner",
-			"members": [3, 6, 7]
+    		"image": "lorempixel.people.3.jpeg",
+    		"people interested": [[6, "Hi! I am also playing around with 3D designs! Maybe we can learn together!"], [8, "Hello! I have some experience in 3D design and I am also down to do some creative writing!"]],
+    		"creator": 9,
+    		"members": [6, 8]
 		}],
 	"users": [
 		{
@@ -127,8 +127,8 @@
 			"name": "Cam",
 			"tags": ["learning", "photography", "film"],
 			"description": "Hello world!"
-		}
-	]
-
+		}]
+	
+}
 
 
