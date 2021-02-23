@@ -1,19 +1,134 @@
 {
-	profile: {
-		id: 0,
-		name: “name”,
-		tags: [‘tag1’, ‘tag2’],
-		description: “”,
-  },
-  myProjects: {
-    name: “name”,
-    about: “hi”,
-    lookingFor: “I want friends”
-    tags: [‘tag1’, ‘tag2’],
-    size: 4,
-    image: “url string”,
-    people interested: [
-	    [id, “intro message”]
-members: [“owner”]
-},
+	"profile": {
+		"id": 0,
+		"name": "Andy127",
+		"tags": ["graphic design", "illustration", "sketch", "painting", "hobby"],
+		"description": "Hi, my name is Andy and I am fascinated by visual arts since childhood. I hope that I will have the opportunity to work with other artists and create amazing art projects here."
+  	},
+  	"myProjects": [
+  		{
+    		"name": "Symbolism Short Film",
+    		"about": "This is an experimental film on symbolism, which explores the abstract.",
+    		"lookingFor": "Looking for an editor, a vfx person, and a writer",
+    		"tags": ["film", "abstract", "digital", "hobby"],
+    		"size": 4,
+    		"image": "url string",
+    		"people interested": [[1, "intro message"], [3, "intro message"], [9, "intro message"]],
+    		"creator": "owner",
+			"members": [1, 3, 9]
+		},
+		{
+			"name": "Typography Poster",
+    		"about": "This is a typography poster that plays around with types and compositions.",
+    		"lookingFor": "Looking for someone who is also interested in exploring types and how to use types to convey meanings",
+    		"tags": ["graphic design", "typography", "digital", "learning"],
+    		"size": 2,
+    		"image": "url string",
+    		"people interested": [[2, "intro message"], [5, "intro message"], [8, "intro message"]],
+    		"creator": "owner",
+			"members": [2, 5, 8]
+		},
+		{
+			"name": "The river from Hometown",
+    		"about": "This is an ink illustration of a river near my house from Beijing.",
+    		"lookingFor": "Looking for someone who is also interested in landscape in Beijing to do some coloring.",
+    		"tags": ["illustration", "landscape", "hobby", "physical"],
+    		"size": 2,
+    		"image": "url string",
+    		"people interested": [[3, "intro message"], [6, "intro message"], [7, "intro message"]],
+    		"creator": "owner",
+			"members": [3, 6, 7]
+		}
+	]},
+	"collabs": [
+  		{
+    		"name": "Portrait of Ruby Moon",
+    		"about": "A portrait of Ruby Moon in realistic style; oil painting",
+    		"lookingFor": "Another person who is advanced in oil painting and is experienced in painting portraits.",
+    		"tags": ["painting", "portraits", "physical", "commission"],
+    		"size": 2,
+    		"image": "url string",
+    		"people interested": [[2, "intro message"], [5, "intro message"], [6, "intro message"]],
+    		"creator": "owner",
+			"members": [3, 6, 7]
+		},
+		{
+			"name": "Kingdom of Stickfigures",
+    		"about": "This is a short animation that aims to experiment basic animation techniques.",
+    		"lookingFor": "Looking for 1 person with intermediate to advanced illustration skills and 1 writer who is interested in developing the plot.",
+    		"tags": ["animation", "figures", "hobby", "digital"],
+    		"size": 3,
+    		"image": "url string",
+    		"people interested": [[3, "intro message"], [6, "intro message"], [7, "intro message"]],
+    		"creator": "owner",
+			"members": [3, 6, 7]
+		},
+		{
+			"name": "The Dream of Thousand Paper Crane",
+    		"about": "This is a fundarising event aiming to help support elementary school children in the countryside of Shanghai. ",
+    		"lookingFor": "Looking for 2 people who are willing to dedicate time to fold paper crane, and 1 organizer to help with fundarising.",
+    		"tags": ["handcraft", "physical"],
+    		"size": 4,
+    		"image": "url string",
+    		"people interested": [[3, "intro message"], [6, "intro message"], [7, "intro message"]],
+    		"creator": "owner",
+			"members": [3, 6, 7]
+		},
+		{
+			"name": "Lunar New Year Memories",
+    		"about": "This is a photography series that aims record the happiness of celebrating Chinese lunar new year.",
+    		"lookingFor": "Looking for 2 other photographers who are willing to participate",
+    		"tags": ["photography", "events", "digital", "professional"],
+    		"size": 3,
+    		"image": "url string",
+    		"people interested": [[1, "intro message"], [2, "intro message"], [9, "intro message"]],
+    		"creator": "owner",
+			"members": [3, 6, 7]
+		},
+		{
+			"name": "I Miss You",
+    		"about": "This is a an expeirmental 3D design project.",
+    		"lookingFor": "Looking for 1 person who is familiar with Maya and 1 writer.",
+    		"tags": ["3D design", "experimental", "figures", "abstract", "record", "digital", "hobby"],
+    		"size": 3,
+    		"image": "url string",
+    		"people interested": [[3, "intro message"], [6, "intro message"], [7, "intro message"]],
+    		"creator": "owner",
+			"members": [3, 6, 7]
+		}],
+	"users": [
+		{
+			"id": 1,
+			"name": "Jstar",
+			"tags": ["hobby", "graphic design", "illustration", "painting", "sketch", "handcraft",
+						"portraits", "still-life", "logo", "typography"],
+			"description": "A person who is interested in visual arts."
+		},
+		{
+			"id": 2,
+			"name": "QwQ1125",
+			"tags": ["learning", "animation", "illustration"],
+			"description": "Hello! I am a college student who likes to watch a lot of animes, and that was what motivated me to create my own animation! If you are also interested in creating your own story, please feel free to connect with me! Can't wait to work with you all!"
+		},
+		{
+			"id": 3,
+			"name": "Minimini",
+			"tags": ["hobby", "painting", "sketch", "portraits", "landscape", "still-life"],
+			"description": "Hi there. My name is Minimini, you can just call me Mini! I am hanging around to see if I can meet other brilliant minds that will inspire me."
+		},
+		{
+			"id": 5,
+			"name": "LilyWhite",
+			"tags": ["professional", "graphic design", "illustration", "3D design", "sketch", "typography"],
+			"description": "Hello, I am LilyWhite, and I am a professional designer who is specificially interested in graphic design, illustration and 3D design."
+		},
+		{
+			"id": 9,
+			"name": "Cam",
+			"tags": ["learning", "photography", "film"],
+			"description": "Hello world!"
+		}
+	]
+
+
 
