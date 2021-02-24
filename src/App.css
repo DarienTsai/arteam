@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
+@keyframes animate {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -48,15 +54,19 @@ div.search-parent {
 
 #root header.top-bar,
 header.MuiAppBar-colorPrimary,
-button.MuiButton-containedPrimary {
+button.MuiButton-containedPrimary,
+button.MuiButton-containedPrimary:hover,
+button.MuiFab-primary,
+button.MuiFab-primary:hover {
   background: var(--primary);
 }
 
-.show-card .tag {
+.show-card .tag,
+div.MuiChip-colorPrimary {
   background: var(--secondary);
 }
 
-svg.MuiSvgIcon-fontSizeLarge {
+a svg.MuiSvgIcon-fontSizeLarge {
   color: var(--primary-text);
 }
 
@@ -68,8 +78,15 @@ svg.MuiSvgIcon-fontSizeLarge {
   background-color: white;
 }
 
+svg.MuiSvgIcon-fontSizeLarge {
+  color: white;
+}
+
 .App,
-span.PrivateTabIndicator-colorSecondary-3, span.MuiTabs-indicator {
+#viewme,
+#view-profile,
+span.PrivateTabIndicator-colorSecondary-3,
+span.MuiTabs-indicator {
   background-color: var(--light);
 }
 
@@ -126,6 +143,13 @@ span.PrivateTabIndicator-colorSecondary-3, span.MuiTabs-indicator {
   bottom: 10vh;
   right: 2vh;
   z-index: 5;
+  width: 50px;
+  height: 50px;
+  padding: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 #my-list {
@@ -171,7 +195,6 @@ span.PrivateTabIndicator-colorSecondary-3, span.MuiTabs-indicator {
   display: block;
   width: 135px;
   height: 75px;
-  filter: grayscale(1);
 }
 .show-card .show-body div {
   padding: 0 0 0 0.5em;
@@ -187,7 +210,7 @@ span.PrivateTabIndicator-colorSecondary-3, span.MuiTabs-indicator {
 .show-card .show-body div .date {
   font-size: 0.8em;
 }
-.show-card .tag {
+.show-card div.tag {
   margin-right: 3px;
 }
 
@@ -200,6 +223,136 @@ span.PrivateTabIndicator-colorSecondary-3, span.MuiTabs-indicator {
   display: flex;
   flex-wrap: nowrap;
   justify-content: left;
+}
+
+#add-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+#add-rows {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.add-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.tags {
+  width: 23%;
+  overflow: hidden;
+}
+
+.tags-label {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+div.add-text {
+  display: block;
+  margin: 1.3em auto;
+  width: 90%;
+}
+
+#viewme {
+  width: 100%;
+  overflow: hidden;
+  height: fit-content;
+  z-index: 7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.3s;
+}
+
+.view-tab {
+  height: 75vh;
+  overflow-y: auto;
+}
+
+.view-open {
+  transform: none;
+}
+
+.view-close {
+  transform: translateY(100vh);
+}
+
+.interest-el {
+  margin-bottom: 1em;
+  box-shadow: 3px 3px 21px -7px rgba(0, 0, 0, 0.58);
+}
+
+.interest-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0.5em;
+  box-sizing: border-box;
+  background: #555555;
+  color: white;
+}
+
+.interest-info {
+  padding: 0.5em;
+  box-sizing: border-box;
+  background: #e4e4e4;
+}
+
+#details .tags-view, .details-about, .details-skill, .details-size {
+  margin: 1em auto;
+}
+
+.details-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#details .tags-view .tag {
+  margin-right: 3px;
+}
+
+#join-button {
+  display: block;
+  margin: 0 auto;
+}
+
+#profile .tags-list .tag {
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+#profile h3, #profile p {
+  padding: 1em 0;
+}
+#profile a {
+  display: block;
+  text-align: center;
+}
+
+#view-profile {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 80vh;
+  transition-duration: 0.3s;
+}
+#view-profile .tags-list, #view-profile p {
+  width: 90%;
+  margin: 2em auto;
+}
+#view-profile .tag {
+  margin: 0 0 3px 3px;
 }
 
 /*# sourceMappingURL=App.css.map */

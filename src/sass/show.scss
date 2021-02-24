@@ -24,7 +24,6 @@
       display: block;
       width: 135px;
       height: 75px;
-      filter: grayscale(1);
     }
 
     div{
@@ -46,7 +45,7 @@
     }
   }
 
-  .tag{
+  div.tag{
     margin-right: 3px;
   }
 }

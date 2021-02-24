@@ -7,17 +7,22 @@
   --secondary-text: rgb(54, 54, 54);
 }
 
+
 #root header.top-bar,
 header.MuiAppBar-colorPrimary,
-button.MuiButton-containedPrimary{
+button.MuiButton-containedPrimary,
+button.MuiButton-containedPrimary:hover,
+button.MuiFab-primary,
+button.MuiFab-primary:hover{
   background: var(--primary);
 }
 
-.show-card .tag{
+.show-card .tag,
+div.MuiChip-colorPrimary{
   background: var(--secondary);
 }
 
-svg.MuiSvgIcon-fontSizeLarge{
+a svg.MuiSvgIcon-fontSizeLarge{
   color: var(--primary-text);
 }
 
@@ -29,7 +34,14 @@ svg.MuiSvgIcon-fontSizeLarge{
   background-color: white;
 }
 
+svg.MuiSvgIcon-fontSizeLarge{
+  color: white;
+}
+
 .App,
-span.PrivateTabIndicator-colorSecondary-3, span.MuiTabs-indicator{
+#viewme,
+#view-profile,
+span.PrivateTabIndicator-colorSecondary-3, 
+span.MuiTabs-indicator{
   background-color: var(--light);
 }

@@ -1,0 +1,23 @@
+#viewme{
+  width: 100%;
+  overflow: hidden;
+  height: fit-content;
+  z-index: 7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition-duration: 0.3s;
+}
+
+.view-tab{
+  height: 75vh;
+  overflow-y: auto;
+}
+
+.view-open{
+  transform: none;
+}
+
+.view-close{
+  transform: translateY(100vh);
+}

@@ -14,10 +14,11 @@ import Box from '@material-ui/core/Box';
 import Bar from './Bar';
 import ProjectsTab from './ProjectsTab';
 import CollabTab from './CollabTab';
+import Profile from './Profile';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
-
+  console.clear();
   return (
     <Typography
       component="div"
@@ -77,7 +78,7 @@ export default function Home() {
         <ProjectsTab/>
       </TabPanel>
       <TabPanel value={value} index={2} className="home-tab">
-        Todo
+        <Profile/>
       </TabPanel>
       <AppBar position="static" className="home-nav">
         <Tabs
