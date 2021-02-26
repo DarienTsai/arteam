@@ -1,6 +1,6 @@
 # arteam
 
-arteam is a place to get feedback/collaboration.
+arteam is a place to find teammates for your visual arts projects.
 
 ## Tech Used
 
