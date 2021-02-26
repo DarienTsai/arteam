@@ -8,6 +8,7 @@ export default class Auth extends React.Component{
   }
 
   render(){
+    console.clear();
     return(
       <div id="auth-parent">
         <img alt="logo" id="auth-logo" src="https://picsum.photos/500"/>

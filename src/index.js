@@ -4,12 +4,15 @@ import App from './App';
 import './App.css';
 import reportWebVitals from './reportWebVitals';
 
+global.data = require('./data.json');
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
+console.clear();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

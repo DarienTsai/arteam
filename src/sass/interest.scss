@@ -1,0 +1,21 @@
+.interest-el{
+  margin-bottom: 1em;
+  box-shadow: 3px 3px 21px -7px rgba(0,0,0,0.58);
+}
+
+.interest-entry{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: .5em;
+  box-sizing: border-box;
+  background: rgb(85, 85, 85);
+  color: white;
+}
+
+.interest-info{
+  padding: .5em;
+  box-sizing: border-box;
+  background: rgb(228, 228, 228);
+}

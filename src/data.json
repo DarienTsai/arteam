@@ -1,4 +1,8 @@
 {
+	"key": 0,
+	"myIdx": 0,
+	"otherIdx" : 0,
+	"userIdx" : 0,
 	"profile": {
 		"id": 0,
 		"name": "Andy127",
@@ -37,7 +41,7 @@
     		"tags": ["Illustration", "Landscape", "Hobby", "Physical"],
     		"size": 2,
     		"image": "lorempixel.city.3.jpeg",
-    		"people interested": [[3, "Native from Beijing here. Very interested in this project."], [6, "I am not from Beijing but I am very experienced in landscape illustration. Would be very excited to get a glimpse of landscape in Beijing!"], [7, ""]],
+    		"people interested": [[3, "Native from Beijing here. Very interested in this project."], [5, "I am not from Beijing but I am very experienced in landscape illustration. Would be very excited to get a glimpse of landscape in Beijing!"], [9, ""]],
     		"creator": 0,
     		"members": [],
     		"date": "12/30/2020"
@@ -63,7 +67,7 @@
     		"tags": ["Animation", "Figures", "Hobby", "Digital"],
     		"size": 3,
     		"image": "lorempixel.people.1.jpeg",
-    		"people interested": [[3, "I am very interested in collaborating with you for this project! I am very experienced in illustration."], [6, "Hey! I've been working in the literature department in education institution and I am looking forward to working on writing the plot!"]],
+    		"people interested": [[3, "I am very interested in collaborating with you for this project! I am very experienced in illustration."], [7, "Hey! I've been working in the literature department in education institution and I am looking forward to working on writing the plot!"]],
     		"creator": 2,
     		"members": [5],
     		"date": "1/10/2021"
@@ -75,7 +79,7 @@
     		"tags": ["Handcraft", "Physical"],
     		"size": 4,
     		"image": "lorempixel.city.4.jpeg",
-    		"people interested": [[2, "I would really like to participate in this fundarising!"], [9, "Have been doing origami for more than 10 years. Very interested in doing paper crane and helping the fundarising."], [7, "I am also very interested in joining the fundarising team! I am from a marketing background and have organization experience in small companies."]],
+    		"people interested": [[2, "I would really like to participate in this fundarising!"], [9, "Have been doing origami for more than 10 years. Very interested in doing paper crane and helping the fundarising."], [1, "I am also very interested in joining the fundarising team! I am from a marketing background and have organization experience in small companies."]],
     		"creator": 5,
     		"members": [3, 6],
     		"date": "1/9/2021"
