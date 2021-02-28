@@ -10,8 +10,18 @@ export default class Details extends React.Component{
   }
 
   render(){
+
+    let creator = data.collabs[data.otherIdx].creator;
+    for( let i = 0; i < data.users.length; i++){
+      if( data.users[i].id == creator ){
+        creator = data.users[i].name;
+        break;
+      }
+    }
+
     return(
       <div id="details">
+        <h3>Created By: {creator}</h3>
         <p className="details-size">{data.collabs[data.otherIdx].members.length}/{data.collabs[data.otherIdx].size} Members</p>
 
         <div className="tags-view">

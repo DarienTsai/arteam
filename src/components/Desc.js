@@ -12,6 +12,7 @@ export default class Desc extends React.Component{
   render(){
     return(
       <div id="details">
+        <h3>Created By: Me!</h3>
         <p className="details-size">{data.myProjects[data.myIdx].members.length}/{data.myProjects[data.myIdx].size} Members</p>
 
         <div className="tags-view">
