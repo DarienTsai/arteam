@@ -159,7 +159,7 @@ span.MuiTabs-indicator {
   height: 8vh;
 }
 
-#add-project {
+#add-project, #edit-project, #profile #edit-profile {
   background: white;
   border: 2px solid #cacaca;
   position: absolute;
@@ -361,6 +361,20 @@ div.add-text {
 #profile a {
   display: block;
   text-align: center;
+}
+
+#profile-edit {
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+}
+#profile-edit .tags {
+  width: 23%;
+}
+#profile-edit .profile-field {
+  display: block;
+  width: 90%;
+  margin: 1.5em auto;
 }
 
 #view-profile {

@@ -12,19 +12,19 @@ import {Link} from "react-router-dom";
 import Bar from './Bar';
 import SelectAll from './SelectAll';
 
-export default class Add extends React.Component{
+export default class Edit extends React.Component{
 
-  constructor(props){
-    super(props);
+  constructor(){
+    super();
     this.state = {
       field: '',
       styles: [],
       medium: '',
       purpose: '',
-      title: '',
-      look: 'Desired Skills',
-      about: 'Project Description',
-      size: 0
+      title: data.myProjects[data.myIdx].name,
+      look: data.myProjects[data.myIdx].lookingFor,
+      about: data.myProjects[data.myIdx].about,
+      size: data.myProjects[data.myIdx].size
 
     }
 
@@ -63,8 +63,6 @@ export default class Add extends React.Component{
   }
 
   save = () => {
-    let day = new Date();
-    let dateStr = "" + (day.getMonth() + 1) + '/' + day.getDate() + '/' + day.getFullYear(); 
 
     let tags = this.state.styles;
     if(this.state.field != '')
@@ -73,6 +71,14 @@ export default class Add extends React.Component{
       tags.push(this.state.medium);
     if(this.state.purpose != '')
       tags.push(this.state.purpose);
+
+    data.myProjects[data.myIdx].name = this.state.title;
+    data.myProjects[data.myIdx].about = this.state.about;
+    data.myProjects[data.myIdx].lookingFor = this.state.look;
+    data.myProjects[data.myIdx].size = this.state.size;
+    data.myProjects[data.myIdx].tags = tags;
+
+    /*
     data.myProjects.splice(0, 0,
       {
         name: this.state.title,
@@ -88,24 +94,25 @@ export default class Add extends React.Component{
 
       }
     );
+    */
   }
 
   render(){
 
     return(
       <div id="add-screen">
-        <Bar text="New Project"/>
+        <Bar text="Edit Project"/>
         <div id="add-rows">
 
           <div className="add-row">
-            <TextField label="Title" id="add-title" onChange={this.changeTitle} fullWidth/>
+            <TextField label="Title" value={this.state.title} id="add-title" onChange={this.changeTitle} fullWidth/>
           </div>
 
           <div className="add-row">
             <Button variant="contained" color="primary">
               <PublishIcon fontSize="large"/>
             </Button>
-            <TextField label="Team Size" onChange={this.changeSize} fullWidth/>
+            <TextField label="Team Size" onChange={this.changeSize} value={this.state.size} fullWidth/>
           </div>
 
           <div className="add-row">
@@ -161,10 +168,11 @@ export default class Add extends React.Component{
           fullWidth
           className="add-text"
           multiline
+          value={this.state.about}
           label="About"
           rows={2}
           rowsMax={13}
-          defaultValue="Project Description"
+          defaultValue={this.state.about}
           variant="outlined"
           onChange={this.changeAbout}
           />
@@ -176,7 +184,7 @@ export default class Add extends React.Component{
           label="Looking for:"
           rows={2}
           rowsMax={13}
-          defaultValue="Desired Skills"
+          defaultValue={this.state.look}
           variant="outlined"
           onChange={this.changeLook}
           />

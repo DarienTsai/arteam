@@ -3,6 +3,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Chip from '@material-ui/core/Chip';
+import EditIcon from '@material-ui/icons/Edit';
 
 export default class ProfileEdit extends React.Component{
 
@@ -20,6 +21,10 @@ export default class ProfileEdit extends React.Component{
         </div>
         <p>{data.profile.description}</p>
         <Link to="/" id="logout"><Button variant="contained" color="primary">Logout</Button></Link>
+
+        <Link to="editProfile" id="edit-profile">
+          <EditIcon fontSize="medium"/>
+        </Link>
       </div>
     );
   }

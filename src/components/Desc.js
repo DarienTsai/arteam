@@ -1,6 +1,9 @@
 /* global data */
 import React from 'react';
 import Chip from '@material-ui/core/Chip';
+import EditIcon from '@material-ui/icons/Edit';
+import {Link} from "react-router-dom";
+
 
 export default class Desc extends React.Component{
 
@@ -26,6 +29,12 @@ export default class Desc extends React.Component{
         <p className="details-about">{data.myProjects[data.myIdx].about}</p>
 
         <p className="details-skill">{data.myProjects[data.myIdx].lookingFor}</p>
+
+        <div className="list-spacer"></div>
+
+        <Link to="edit" id="edit-project">
+          <EditIcon fontSize="medium"/>
+        </Link>
       </div>
     );
   }
