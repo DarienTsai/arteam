@@ -5,6 +5,9 @@
 
   --primary-text: black;
   --secondary-text: rgb(54, 54, 54);
+
+  --project-collab: blue;
+  --project-me: red;
 }
 
 
@@ -57,4 +60,12 @@ svg.MuiSvgIcon-fontSizeLarge{
 span.PrivateTabIndicator-colorSecondary-3, 
 span.MuiTabs-indicator{
   background-color: var(--light);
+}
+
+.collab{
+  border-color: var(--project-collab);
+} 
+
+.me{
+  border-color: var(--project-me);
 }

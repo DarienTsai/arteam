@@ -31,7 +31,7 @@ export default class CollabTab extends React.Component{
 
         <div id="find-list">
           <div className="list-spacer"></div>
-          {data.collabs.map(x => <Show key={data.key++} setter={this.projectView} data={x} idx={idx++}></Show>)}
+          {data.collabs.map(x => <Show key={data.key++} setter={this.projectView} data={x} tab="collab" idx={idx++}></Show>)}
         </div>
 
         <ViewOther view={this.state.view} setter={this.projectView}/>

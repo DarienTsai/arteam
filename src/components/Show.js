@@ -12,7 +12,7 @@ export default class Show extends React.Component{
 
   render(){
     return(
-      <div className="show-card" onClickCapture={this.props.setter} name={this.props.idx}>
+      <div className={this.props.tab + " show-card"} onClickCapture={this.props.setter} name={this.props.idx}>
         <h2>{this.props.data.name}</h2>
 
         <div className="show-body">

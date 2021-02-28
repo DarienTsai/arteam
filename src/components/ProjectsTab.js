@@ -33,7 +33,7 @@ export default class ProjectsTab extends React.Component{
 
         <div id="my-list">
           <div className="list-spacer"></div>
-          {data.myProjects.map(x => <Show key={data.key++} setter={this.projectView} data={x} idx={idx++}></Show>)}
+          {data.myProjects.map(x => <Show key={data.key++} setter={this.projectView} data={x} tab="me" idx={idx++}></Show>)}
           <div className="list-spacer"></div>
         </div>
 
