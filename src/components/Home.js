@@ -48,7 +48,7 @@ function a11yProps(index) {
 
 export default function Home() {
   const [value, setValue] = React.useState(1);
-  const [heading, setHeading] = React.useState("Welcome Back!");
+  const [heading, setHeading] = React.useState("My Projects");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -57,7 +57,7 @@ export default function Home() {
         setHeading("Find a Project");
         break;
       case 1:
-        setHeading("My Teams");
+        setHeading("My Projects");
         break;
       case 2:
         setHeading("My Profile");

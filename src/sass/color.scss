@@ -1,5 +1,5 @@
 :root{
-  --primary: rgb(20, 20, 20);
+  --primary: rgb(0, 0, 0);
   --secondary: rgb(78, 78, 78);
   --light: rgb(243, 243, 243);
 
@@ -17,13 +17,26 @@ button.MuiFab-primary:hover{
   background: var(--primary);
 }
 
+span.MuiCheckbox-colorPrimary.Mui-checked{
+  color: var(--primary);
+}
+
+div.MuiInput-underline:after{
+  border-bottom: 2px solid var(--primary);
+}
+
 .show-card .tag,
 div.MuiChip-colorPrimary{
   background: var(--secondary);
 }
 
-a svg.MuiSvgIcon-fontSizeLarge{
+a svg.MuiSvgIcon-fontSizeLarge,
+label.MuiFormLabel-root.Mui-focused{
   color: var(--primary-text);
+}
+
+a{
+  color: var(--secondary-text);
 }
 
 #add-project{
