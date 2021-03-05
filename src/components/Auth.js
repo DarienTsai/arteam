@@ -11,7 +11,7 @@ export default class Auth extends React.Component{
     console.clear();
     return(
       <div id="auth-parent">
-        <img alt="logo" id="auth-logo" src="https://picsum.photos/500"/>
+        <img alt="logo" id="auth-logo" src="https://drive.google.com/file/d/1y0CwtBIXDN3j8I1YBCFEgkFrIZDQNoAT/view"/>
         <AuthBox/>
       </div>
     );
