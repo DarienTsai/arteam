@@ -16,7 +16,7 @@ export default class Show extends React.Component{
         <h2>{this.props.data.name}</h2>
 
         <div className="show-body">
-          <img src="https://picsum.photos/135/75" alt="project image"/>
+          <img src={this.props.data.image} alt="project image"/>
           <div>
             <p><span>{this.props.data.members.length}/{this.props.data.size}</span> members</p>
             <p className="date">Created {this.props.data.date}</p>

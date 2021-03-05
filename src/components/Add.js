@@ -80,7 +80,7 @@ export default class Add extends React.Component{
         lookingFor: this.state.look,
         tags: tags,
         size: this.state.size,
-        image: '',
+        image: "'src/media/field tag images/' + 'this.state.styles[0]' + '.jpg'",
         "people interested": [],
         creator: 0,
         members: [],
