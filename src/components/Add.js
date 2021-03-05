@@ -80,7 +80,7 @@ export default class Add extends React.Component{
         lookingFor: this.state.look,
         tags: tags,
         size: this.state.size,
-        image: "'src/media/field tag images/' + 'this.state.styles[0]' + '.jpg'",
+        image: 'https://github.com/DarienTsai/arteam/tree/main/src/media/field%20tag%20images/' + (this.state.field).replace(/\s+/g, '') + '.jpg?raw=true',
         "people interested": [],
         creator: 0,
         members: [],
@@ -88,6 +88,7 @@ export default class Add extends React.Component{
 
       }
     );
+    console.log('https://github.com/DarienTsai/arteam/tree/main/src/media/field%20tag%20images/' + (this.state.field).replace(/\s+/g, '') + '.jpg?raw=true');
   }
 
   render(){
