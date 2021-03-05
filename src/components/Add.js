@@ -73,6 +73,7 @@ export default class Add extends React.Component{
       tags.push(this.state.medium);
     if(this.state.purpose != '')
       tags.push(this.state.purpose);
+    
     data.myProjects.splice(0, 0,
       {
         name: this.state.title,
@@ -80,7 +81,7 @@ export default class Add extends React.Component{
         lookingFor: this.state.look,
         tags: tags,
         size: this.state.size,
-        image: 'https://github.com/DarienTsai/arteam/tree/main/src/media/field%20tag%20images/' + (this.state.field).replace(/\s+/g, '') + '.jpg?raw=true',
+        image: 'https://picsum.photos/200/100',
         "people interested": [],
         creator: 0,
         members: [],
@@ -88,7 +89,6 @@ export default class Add extends React.Component{
 
       }
     );
-    console.log('https://github.com/DarienTsai/arteam/tree/main/src/media/field%20tag%20images/' + (this.state.field).replace(/\s+/g, '') + '.jpg?raw=true');
   }
 
   render(){
