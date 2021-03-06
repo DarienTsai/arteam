@@ -89,6 +89,8 @@ export default class Add extends React.Component{
 
       }
     );
+
+    alert("Success!");
   }
 
   render(){

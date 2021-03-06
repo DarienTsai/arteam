@@ -54,6 +54,7 @@ export default class ProfileEdit extends React.Component{
     data.profile.name = this.state.name;
     data.profile.description = this.state.desc;
     data.profile.tags = ((this.state.field.concat(this.state.medium)).concat(this.state.purpose)).concat(this.state.style);
+    alert("Success!");
   }
 
   render(){

@@ -49,6 +49,7 @@ export default class Interest extends React.Component{
       }
     }
     this.setState({rend: !this.state.rend});
+    alert("Success!");
   }
 
   render(){

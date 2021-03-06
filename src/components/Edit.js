@@ -78,23 +78,7 @@ export default class Edit extends React.Component{
     data.myProjects[data.myIdx].size = this.state.size;
     data.myProjects[data.myIdx].tags = tags;
 
-    /*
-    data.myProjects.splice(0, 0,
-      {
-        name: this.state.title,
-        about: this.state.about,
-        lookingFor: this.state.look,
-        tags: tags,
-        size: this.state.size,
-        image: '',
-        "people interested": [],
-        creator: 0,
-        members: [],
-        date: dateStr
-
-      }
-    );
-    */
+    alert("Success!");
   }
 
   render(){

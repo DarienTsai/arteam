@@ -46,6 +46,7 @@ export default class Manage extends React.Component{
       }
     }
     this.setState({rend: !this.state.rend});
+    alert("Success!");
   }
 
   render(){

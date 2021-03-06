@@ -9,6 +9,10 @@ export default class Join extends React.Component{
     return;
   }
 
+  handle = () => {
+    alert("Success!");
+  }
+
   render(){
     return(
       <div id="join">
@@ -24,7 +28,7 @@ export default class Join extends React.Component{
           variant="outlined"
           />
 
-        <Button id="join-button" variant="contained" color="primary">
+        <Button id="join-button" variant="contained" color="primary" onClick={this.handle}>
           Join!
         </Button>
       </div>
