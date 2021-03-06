@@ -30,7 +30,7 @@ export default class Details extends React.Component{
           </div>
         </div>
 
-        <img className="details-img" src="https://picsum.photos/135/75" alt="project image"/>
+        <img className="details-img" src={data.collabs[data.otherIdx].image} alt="project image"/>
 
         <p className="details-about">{data.collabs[data.otherIdx].about}</p>
 

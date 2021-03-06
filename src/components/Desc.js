@@ -24,7 +24,7 @@ export default class Desc extends React.Component{
           </div>
         </div>
 
-        <img className="details-img" src="https://picsum.photos/135/75" alt="project image"/>
+        <img className="details-img" src={data.myProjects[data.myIdx].image} alt="project image"/>
 
         <p className="details-about">{data.myProjects[data.myIdx].about}</p>
 
