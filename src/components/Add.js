@@ -97,7 +97,7 @@ export default class Add extends React.Component{
 
     return(
       <div id="add-screen">
-        <Bar text="New Project"/>
+        <Bar text="New Project" co="top-bar-add"/>
         <div id="add-rows">
 
           <div className="add-row">

@@ -52,9 +52,25 @@ div.search-parent {
   --secondary-text: rgb(54, 54, 54);
   --project-collab: rgb(46, 196, 182);
   --project-me: rgb(250, 156, 5);
+  --barCollab: var(--primary);
+  --barMe: red;
+  --barProfile: blue;
 }
 
-#root header.top-bar,
+#root header.top-bar-0 {
+  background: var(--barCollab);
+}
+
+#root header.top-bar-1 {
+  background: var(--barMe);
+}
+
+#root header.top-bar-2 {
+  background: var(--barProfile);
+}
+
+#root header.top-bar-add,
+#root header.top-bar-edit,
 header.MuiAppBar-colorPrimary,
 button.MuiButton-containedPrimary,
 button.MuiButton-containedPrimary:hover,

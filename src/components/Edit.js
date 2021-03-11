@@ -85,7 +85,7 @@ export default class Edit extends React.Component{
 
     return(
       <div id="add-screen">
-        <Bar text="Edit Project"/>
+        <Bar text="Edit Project" co="top-bar-edit"/>
         <div id="add-rows">
 
           <div className="add-row">

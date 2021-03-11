@@ -70,7 +70,7 @@ export default function Home() {
   return (
     
     <div id="home">
-      <Bar text={heading}/>
+      <Bar text={heading} co={"top-bar-" + value}/>
       <TabPanel value={value} index={0} className="home-tab">
         <CollabTab/>
       </TabPanel>
