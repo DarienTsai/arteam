@@ -69,8 +69,6 @@ div.search-parent {
   background: var(--barProfile);
 }
 
-#root header.top-bar-add,
-#root header.top-bar-edit,
 header.MuiAppBar-colorPrimary,
 button.MuiButton-containedPrimary,
 button.MuiButton-containedPrimary:hover,
