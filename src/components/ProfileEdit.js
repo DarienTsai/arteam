@@ -60,7 +60,7 @@ export default class ProfileEdit extends React.Component{
   render(){
     return(
       <div id="profile-edit">
-        <Bar text="New Project"/>
+        <Bar text="New Project" co="top-bar-2"/>
         <TextField label="Username" value={this.state.name} onChange={this.handleName} className="profile-field" fullWidth/>
         <TextField label="About" value={this.state.desc} onChange={this.handleDesc} variant="outlined" multiline rows={2} className="profile-field" fullWidth/>
         <div className="add-row">
