@@ -9,7 +9,7 @@ export default function Bar(props) {
 
   return (
     <div>
-      <AppBar position="static" className={props.co}>
+      <AppBar position="static" className={props.co + " top-bar"}>
         <Toolbar variant="dense">
           <Typography variant="h6" color="inherit">
             {props.text}

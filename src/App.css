@@ -77,6 +77,10 @@ button.MuiFab-primary:hover {
   background: var(--primary);
 }
 
+.interest-entry {
+  background: var(--primary);
+}
+
 span.MuiCheckbox-colorPrimary.Mui-checked {
   color: var(--primary);
 }
@@ -336,7 +340,6 @@ div.add-text {
   flex-wrap: nowrap;
   padding: 0.5em;
   box-sizing: border-box;
-  background: #555555;
   color: white;
 }
 
