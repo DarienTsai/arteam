@@ -52,9 +52,9 @@ div.search-parent {
   --secondary-text: rgb(54, 54, 54);
   --project-collab: rgb(46, 196, 182);
   --project-me: rgb(250, 156, 5);
-  --barCollab: var(--primary);
-  --barMe: red;
-  --barProfile: blue;
+  --barCollab: var(--project-collab);
+  --barMe: rgb(250, 156, 5);
+  --barProfile: rgb(255, 191, 105);
 }
 
 #root header.top-bar-0 {
